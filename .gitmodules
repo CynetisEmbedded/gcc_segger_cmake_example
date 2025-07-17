@@ -1,0 +1,3 @@
+[submodule "project/segger-toolchain-cmake"]
+	path = project/segger-toolchain-cmake
+	url = https://github.com/SEGGERMicro/segger-toolchain-cmake.git
