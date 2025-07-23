@@ -93,7 +93,7 @@ target_link_options(${PROJECT_NAME} PRIVATE
   -Wl,--defsym=__SEGGER_RTL_vfscanf=__SEGGER_RTL_vfscanf_int
   -io=rtt
   # Entry Point
-  -e_start
+  -eReset_Handler
   # Optional settings
   --full-section-headers
   --merge-sections
